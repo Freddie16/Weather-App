@@ -42,20 +42,21 @@ Before running the application, ensure you have the following installed:
 
     ```bash
     git clone git@github.com:Freddie16/Weather-App.git
-    cd Weather-App
+    cd weather-App
     ```
 
 2.  **Install frontend dependencies:**
 
     ```bash
     cd weather-app # Navigate to the frontend directory
-    npm install  # Or yarn install or pnpm install
+    npm install  
     ```
 
 3.  **Install backend dependencies:**
 
     ```bash
-    cd backend # Navigate to the backend directory (if you have one)
+    cd weather-app-api
+    cd weather-api
     composer install
     ```
 
@@ -74,7 +75,7 @@ Before running the application, ensure you have the following installed:
 
     ```bash
     cd weather-app
-    npm run dev  # Or yarn dev or pnpm dev
+    npm run dev  
     ```
 
 2.  Open the app in your browser at `http://localhost:3000`.
@@ -84,7 +85,8 @@ Before running the application, ensure you have the following installed:
 1.  **Start the backend server (if applicable):**
 
     ```bash
-    cd backend
+    cd weather-app-api
+    cd weather-api
     php artisan serve
     ```
 
